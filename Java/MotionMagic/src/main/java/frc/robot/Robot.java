@@ -78,7 +78,7 @@ public class Robot extends TimedRobot {
 		/* Factory default hardware to prevent unexpected behavior */
 		_talon.configFactoryDefault();
 
-		/* Configure Sensor Source for Pirmary PID */
+		/* Configure Sensor Source for Primary PID */
 		_talon.configSelectedFeedbackSensor(FeedbackDevice.CTRE_MagEncoder_Relative,
 											Constants.kPIDLoopIdx, 
 											Constants.kTimeoutMs);
